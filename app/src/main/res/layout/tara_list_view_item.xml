@@ -23,4 +23,22 @@
         android:textSize="20sp"
         android:id="@+id/member_name"/>
 
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="100dp"
+        android:maxHeight="40dp"
+        android:maxWidth="40dp"
+        android:background="@drawable/like"
+        android:id="@+id/like_img"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/like_count"
+        android:text="0"/>
+
 </LinearLayout>
